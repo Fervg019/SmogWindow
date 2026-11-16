@@ -1,0 +1,25 @@
+{
+  "point_mae": {
+    "Ridge no_weather a100": 12.601745716632008,
+    "Ridge no_weather a1000": 12.040415509110032,
+    "Ridge weather a100": 12.619677243006652,
+    "Ridge weather a1000": 12.042366966969201,
+    "Persistence": 12.467793715846993
+  },
+  "probability_crps": {
+    "Analog history k120": 8.943536014605307,
+    "Analog history k30": 9.037741801786588,
+    "Analog history k60": 8.90761877284456,
+    "Analog weather k120": 8.941238636332214,
+    "Analog weather k30": 8.975975062748093,
+    "Analog weather k60": 8.926694577199074,
+    "Persistence empirical expanding": 9.454825912510865,
+    "Persistence empirical trailing180": 9.599882361343164
+  },
+  "selected": [
+    "Ridge weather a1000",
+    "Ridge no_weather a1000",
+    "Analog history k60",
+    "Persistence empirical expanding"
+  ]
+}

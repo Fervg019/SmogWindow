@@ -1,0 +1,5 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+# Only for the Colab notebook's inline dashboard display and for re-running the notebook:
+ipython>=8.0

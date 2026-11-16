@@ -1,0 +1,18 @@
+{
+  "forecast_model": "Ridge full (a=1000)",
+  "forecast_model_config": {
+    "kind": "ridge",
+    "alpha": 1000,
+    "features": "full"
+  },
+  "uncertainty_scheme": "log_relative",
+  "uncertainty_label": "Relative (log-scale) errors",
+  "best_baseline_on_dev": "Persistence",
+  "primary_threshold": 55.0,
+  "primary_cost_ratio": 3.0,
+  "selected_using": "2023-09-01 to 2024-12-31 only",
+  "refit": "monthly, expanding window, target dates before the month start",
+  "abrupt_flag_supported_on_dev": true,
+  "abrupt_cutoff": 34.48791666666666,
+  "sha256": "c55fb4fb62ddaef5bfe4fb3e16cfe09e6ddbe884a2b6f473541f271e00cae517"
+}

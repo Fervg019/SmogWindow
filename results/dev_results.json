@@ -1,0 +1,787 @@
+{
+  "mae_by_block": {
+    "Persistence": {
+      "pooled": 12.467793715846993,
+      "2023 Sep-Nov": 11.542353479853478,
+      "2023-24 Dec-Feb": 15.12518315018315,
+      "2024 Mar-May": 6.949139492753623,
+      "2024 Jun-Aug": 7.892980072463769,
+      "2024 Sep-Nov": 16.231593406593404,
+      "2024 Dec (partial)": 26.28991935483871
+    },
+    "Trailing 7-day mean": {
+      "pooled": 17.12240681108509,
+      "2023 Sep-Nov": 14.92199110413396,
+      "2023-24 Dec-Feb": 21.948659079016224,
+      "2024 Mar-May": 8.59381469979296,
+      "2024 Jun-Aug": 11.444306418219462,
+      "2024 Sep-Nov": 22.22569335426478,
+      "2024 Dec (partial)": 36.59548771121352
+    },
+    "Seasonal climatology": {
+      "pooled": 23.352720631026507,
+      "2023 Sep-Nov": 27.178024874935076,
+      "2023-24 Dec-Feb": 27.094576117410696,
+      "2024 Mar-May": 15.251592709468431,
+      "2024 Jun-Aug": 17.08979303686589,
+      "2024 Sep-Nov": 24.521962441026282,
+      "2024 Dec (partial)": 40.33596473681677
+    },
+    "Persistence+climate 50/50": {
+      "pooled": 14.784484563217136,
+      "2023 Sep-Nov": 16.042185158526756,
+      "2023-24 Dec-Feb": 17.447785945218047,
+      "2024 Mar-May": 9.044331692511447,
+      "2024 Jun-Aug": 10.280830647926553,
+      "2024 Sep-Nov": 16.605385070299178,
+      "2024 Dec (partial)": 28.33019740940854
+    },
+    "Ridge minimal (a=100)": {
+      "pooled": 12.235680572163048,
+      "2023 Sep-Nov": 11.850625001102948,
+      "2023-24 Dec-Feb": 15.197441563356778,
+      "2024 Mar-May": 6.935603496376936,
+      "2024 Jun-Aug": 7.736398628094182,
+      "2024 Sep-Nov": 14.936179787560802,
+      "2024 Dec (partial)": 25.8265001848502
+    },
+    "Ridge history (a=100)": {
+      "pooled": 12.396804209445833,
+      "2023 Sep-Nov": 11.690792994871627,
+      "2023-24 Dec-Feb": 16.890092768255453,
+      "2024 Mar-May": 6.615722636209369,
+      "2024 Jun-Aug": 7.713691759297976,
+      "2024 Sep-Nov": 14.8091776333571,
+      "2024 Dec (partial)": 25.25285679815581
+    },
+    "Ridge history (a=1000)": {
+      "pooled": 12.156085477163753,
+      "2023 Sep-Nov": 11.310257312885186,
+      "2023-24 Dec-Feb": 14.999189640066538,
+      "2024 Mar-May": 6.952171084521356,
+      "2024 Jun-Aug": 7.671242973162748,
+      "2024 Sep-Nov": 15.367302534189353,
+      "2024 Dec (partial)": 25.62036826513344
+    },
+    "Log-ridge history (a=100)": {
+      "pooled": 13.255599730828687,
+      "2023 Sep-Nov": 11.224412297232147,
+      "2023-24 Dec-Feb": 21.575061982359546,
+      "2024 Mar-May": 6.6296901914547375,
+      "2024 Jun-Aug": 7.696042335742558,
+      "2024 Sep-Nov": 14.89518464500447,
+      "2024 Dec (partial)": 26.146816580774107
+    },
+    "Log-ridge history (a=1000)": {
+      "pooled": 12.429722148136996,
+      "2023 Sep-Nov": 11.38998447959942,
+      "2023-24 Dec-Feb": 16.490465387042256,
+      "2024 Mar-May": 6.9001712796158134,
+      "2024 Jun-Aug": 7.77342729891605,
+      "2024 Sep-Nov": 14.91510303946225,
+      "2024 Dec (partial)": 26.494774987434393
+    },
+    "Ridge full (a=1000)": {
+      "pooled": 12.040415509110025,
+      "2023 Sep-Nov": 11.164228746766,
+      "2023-24 Dec-Feb": 14.752073703540672,
+      "2024 Mar-May": 7.1578563303908025,
+      "2024 Jun-Aug": 7.6062383263894215,
+      "2024 Sep-Nov": 15.152592512870022,
+      "2024 Dec (partial)": 25.166342528155898
+    },
+    "Boosted stumps (150)": {
+      "pooled": 12.21619691657373,
+      "2023 Sep-Nov": 11.158106649697443,
+      "2023-24 Dec-Feb": 14.085771572486399,
+      "2024 Mar-May": 8.461832683991501,
+      "2024 Jun-Aug": 8.160349725560184,
+      "2024 Sep-Nov": 15.058445717792397,
+      "2024 Dec (partial)": 24.66941403456089
+    }
+  },
+  "blocks_beating_persistence": {
+    "Persistence": 0,
+    "Trailing 7-day mean": 0,
+    "Seasonal climatology": 0,
+    "Persistence+climate 50/50": 0,
+    "Ridge minimal (a=100)": 4,
+    "Ridge history (a=100)": 4,
+    "Ridge history (a=1000)": 5,
+    "Log-ridge history (a=100)": 5,
+    "Log-ridge history (a=1000)": 4,
+    "Ridge full (a=1000)": 5,
+    "Boosted stumps (150)": 4
+  },
+  "schemes": {
+    "global_abs": {
+      "overall": {
+        "coverage": 0.7581967213114754,
+        "width": 32.38966370444641,
+        "n": 488
+      },
+      "blocks": {
+        "2023 Sep-Nov": {
+          "coverage": 0.6923076923076923,
+          "width": 30.001141739871574,
+          "n": 91
+        },
+        "2023-24 Dec-Feb": {
+          "coverage": 0.6813186813186813,
+          "width": 34.3598174153192,
+          "n": 91
+        },
+        "2024 Mar-May": {
+          "coverage": 0.967391304347826,
+          "width": 33.55424126806508,
+          "n": 92
+        },
+        "2024 Jun-Aug": {
+          "coverage": 0.8478260869565217,
+          "width": 31.955137328147888,
+          "n": 92
+        },
+        "2024 Sep-Nov": {
+          "coverage": 0.6703296703296703,
+          "width": 31.732423454313267,
+          "n": 91
+        },
+        "2024 Dec (partial)": {
+          "coverage": 0.5483870967741935,
+          "width": 33.38049159527066,
+          "n": 31
+        }
+      },
+      "mean_abs_coverage_error": 0.1371457084290184,
+      "worst_block_coverage_error": 0.25161290322580654,
+      "decision_primary": {
+        "model": {
+          "fn": 8,
+          "fp": 76,
+          "flagged": 320,
+          "cost": 100.0
+        },
+        "persistence_cal": {
+          "fn": 16,
+          "fp": 64,
+          "flagged": 300,
+          "cost": 112.0
+        }
+      },
+      "model_cost_advantage": 12.0,
+      "advantage_ci95_per_day": [
+        -0.020491803278688523,
+        0.07172131147540983
+      ]
+    },
+    "global_signed": {
+      "overall": {
+        "coverage": 0.75,
+        "width": 32.0922755881257,
+        "n": 488
+      },
+      "blocks": {
+        "2023 Sep-Nov": {
+          "coverage": 0.6813186813186813,
+          "width": 29.398510470902448,
+          "n": 91
+        },
+        "2023-24 Dec-Feb": {
+          "coverage": 0.6813186813186813,
+          "width": 34.06427650182183,
+          "n": 91
+        },
+        "2024 Mar-May": {
+          "coverage": 0.967391304347826,
+          "width": 33.288226878207766,
+          "n": 92
+        },
+        "2024 Jun-Aug": {
+          "coverage": 0.8369565217391305,
+          "width": 31.692632490805615,
+          "n": 92
+        },
+        "2024 Sep-Nov": {
+          "coverage": 0.6483516483516484,
+          "width": 31.600156302102256,
+          "n": 91
+        },
+        "2024 Dec (partial)": {
+          "coverage": 0.5483870967741935,
+          "width": 33.292373775706345,
+          "n": 31
+        }
+      },
+      "mean_abs_coverage_error": 0.14082861972062535,
+      "worst_block_coverage_error": 0.25161290322580654,
+      "decision_primary": {
+        "model": {
+          "fn": 8,
+          "fp": 76,
+          "flagged": 320,
+          "cost": 100.0
+        },
+        "persistence_cal": {
+          "fn": 16,
+          "fp": 64,
+          "flagged": 300,
+          "cost": 112.0
+        }
+      },
+      "model_cost_advantage": 12.0,
+      "advantage_ci95_per_day": [
+        -0.020491803278688523,
+        0.07172131147540983
+      ]
+    },
+    "trail90": {
+      "overall": {
+        "coverage": 0.7561475409836066,
+        "width": 35.069712604708656,
+        "n": 488
+      },
+      "blocks": {
+        "2023 Sep-Nov": {
+          "coverage": 0.7032967032967034,
+          "width": 29.46389663284096,
+          "n": 91
+        },
+        "2023-24 Dec-Feb": {
+          "coverage": 0.7802197802197802,
+          "width": 49.08485601143997,
+          "n": 91
+        },
+        "2024 Mar-May": {
+          "coverage": 0.9239130434782609,
+          "width": 32.08513826533416,
+          "n": 92
+        },
+        "2024 Jun-Aug": {
+          "coverage": 0.782608695652174,
+          "width": 24.841187204737906,
+          "n": 92
+        },
+        "2024 Sep-Nov": {
+          "coverage": 0.6373626373626373,
+          "width": 31.45763655015697,
+          "n": 91
+        },
+        "2024 Dec (partial)": {
+          "coverage": 0.6129032258064516,
+          "width": 60.20052874701119,
+          "n": 31
+        }
+      },
+      "mean_abs_coverage_error": 0.10125366685675243,
+      "worst_block_coverage_error": 0.18709677419354842,
+      "decision_primary": {
+        "model": {
+          "fn": 11,
+          "fp": 85,
+          "flagged": 326,
+          "cost": 118.0
+        },
+        "persistence_cal": {
+          "fn": 17,
+          "fp": 70,
+          "flagged": 305,
+          "cost": 121.0
+        }
+      },
+      "model_cost_advantage": 3.0,
+      "advantage_ci95_per_day": [
+        -0.03483606557377049,
+        0.0471311475409836
+      ]
+    },
+    "trail180": {
+      "overall": {
+        "coverage": 0.7479508196721312,
+        "width": 33.118635818083646,
+        "n": 488
+      },
+      "blocks": {
+        "2023 Sep-Nov": {
+          "coverage": 0.6813186813186813,
+          "width": 27.97371427346062,
+          "n": 91
+        },
+        "2023-24 Dec-Feb": {
+          "coverage": 0.7032967032967034,
+          "width": 38.80702454609209,
+          "n": 91
+        },
+        "2024 Mar-May": {
+          "coverage": 0.9891304347826086,
+          "width": 42.17324531546415,
+          "n": 92
+        },
+        "2024 Jun-Aug": {
+          "coverage": 0.8260869565217391,
+          "width": 27.231610121716837,
+          "n": 92
+        },
+        "2024 Sep-Nov": {
+          "coverage": 0.6043956043956044,
+          "width": 26.77435298884897,
+          "n": 91
+        },
+        "2024 Dec (partial)": {
+          "coverage": 0.5483870967741935,
+          "width": 40.74626530450378,
+          "n": 31
+        }
+      },
+      "mean_abs_coverage_error": 0.14630321758652756,
+      "worst_block_coverage_error": 0.25161290322580654,
+      "decision_primary": {
+        "model": {
+          "fn": 14,
+          "fp": 76,
+          "flagged": 314,
+          "cost": 118.0
+        },
+        "persistence_cal": {
+          "fn": 17,
+          "fp": 65,
+          "flagged": 300,
+          "cost": 116.0
+        }
+      },
+      "model_cost_advantage": -2.0,
+      "advantage_ci95_per_day": [
+        -0.036885245901639344,
+        0.030737704918032786
+      ]
+    },
+    "level_bins": {
+      "overall": {
+        "coverage": 0.7704918032786885,
+        "width": 34.82147234253674,
+        "n": 488
+      },
+      "blocks": {
+        "2023 Sep-Nov": {
+          "coverage": 0.7362637362637363,
+          "width": 31.105964345095433,
+          "n": 91
+        },
+        "2023-24 Dec-Feb": {
+          "coverage": 0.7802197802197802,
+          "width": 44.608739381114916,
+          "n": 91
+        },
+        "2024 Mar-May": {
+          "coverage": 0.8586956521739131,
+          "width": 26.426862888813083,
+          "n": 92
+        },
+        "2024 Jun-Aug": {
+          "coverage": 0.8260869565217391,
+          "width": 28.050551927338326,
+          "n": 92
+        },
+        "2024 Sep-Nov": {
+          "coverage": 0.7252747252747253,
+          "width": 38.67622734857562,
+          "n": 91
+        },
+        "2024 Dec (partial)": {
+          "coverage": 0.5483870967741935,
+          "width": 50.68972942795075,
+          "n": 31
+        }
+      },
+      "mean_abs_coverage_error": 0.08243954502720284,
+      "worst_block_coverage_error": 0.25161290322580654,
+      "decision_primary": {
+        "model": {
+          "fn": 14,
+          "fp": 68,
+          "flagged": 306,
+          "cost": 110.0
+        },
+        "persistence_cal": {
+          "fn": 18,
+          "fp": 62,
+          "flagged": 296,
+          "cost": 116.0
+        }
+      },
+      "model_cost_advantage": 6.0,
+      "advantage_ci95_per_day": [
+        -0.02459016393442623,
+        0.04918032786885246
+      ]
+    },
+    "log_relative": {
+      "overall": {
+        "coverage": 0.8135245901639344,
+        "width": 39.7645356663547,
+        "n": 488
+      },
+      "blocks": {
+        "2023 Sep-Nov": {
+          "coverage": 0.8571428571428571,
+          "width": 38.03505136150476,
+          "n": 91
+        },
+        "2023-24 Dec-Feb": {
+          "coverage": 0.8461538461538461,
+          "width": 60.65051163927557,
+          "n": 91
+        },
+        "2024 Mar-May": {
+          "coverage": 0.8478260869565217,
+          "width": 22.730070336975736,
+          "n": 92
+        },
+        "2024 Jun-Aug": {
+          "coverage": 0.8043478260869565,
+          "width": 25.230349828756744,
+          "n": 92
+        },
+        "2024 Sep-Nov": {
+          "coverage": 0.7582417582417582,
+          "width": 44.64075949780535,
+          "n": 91
+        },
+        "2024 Dec (partial)": {
+          "coverage": 0.6774193548387096,
+          "width": 62.90449685685186,
+          "n": 31
+        }
+      },
+      "mean_abs_coverage_error": 0.05330158387661893,
+      "worst_block_coverage_error": 0.12258064516129041,
+      "decision_primary": {
+        "model": {
+          "fn": 9,
+          "fp": 71,
+          "flagged": 314,
+          "cost": 98.0
+        },
+        "persistence_cal": {
+          "fn": 16,
+          "fp": 61,
+          "flagged": 297,
+          "cost": 109.0
+        }
+      },
+      "model_cost_advantage": 11.0,
+      "advantage_ci95_per_day": [
+        -0.020491803278688523,
+        0.06557377049180328
+      ]
+    }
+  },
+  "selected_window": {
+    "n": 488,
+    "forecast": {
+      "Persistence": {
+        "mae": 12.467793715846993,
+        "rmse": 18.25954668920955
+      },
+      "Trailing 7-day mean": {
+        "mae": 17.12240681108509,
+        "rmse": 24.616594511211144
+      },
+      "Seasonal climatology": {
+        "mae": 23.352720631026507,
+        "rmse": 30.41919177286548
+      },
+      "Persistence+climate 50/50": {
+        "mae": 14.784484563217136,
+        "rmse": 19.883353703266017
+      },
+      "Ridge minimal (a=100)": {
+        "mae": 12.235680572163048,
+        "rmse": 17.657657892903035
+      },
+      "Ridge history (a=100)": {
+        "mae": 12.396804209445833,
+        "rmse": 17.69196477029334
+      },
+      "Ridge history (a=1000)": {
+        "mae": 12.156085477163753,
+        "rmse": 17.776129780223094
+      },
+      "Log-ridge history (a=100)": {
+        "mae": 13.255599730828687,
+        "rmse": 18.992392379654063
+      },
+      "Log-ridge history (a=1000)": {
+        "mae": 12.429722148136996,
+        "rmse": 17.819714811100983
+      },
+      "Ridge full (a=1000)": {
+        "mae": 12.040415509110025,
+        "rmse": 17.50151751183828
+      },
+      "Boosted stumps (150)": {
+        "mae": 12.21619691657373,
+        "rmse": 17.40282955472537
+      }
+    },
+    "mae_gain_vs_persistence": 0.42737820673696697,
+    "mae_gain_ci95": [
+      0.06394963424101818,
+      0.7945891649646067
+    ],
+    "mae_gain_pct": 3.4278575382086616,
+    "interval": {
+      "model": {
+        "coverage": 0.8135245901639344,
+        "width": 39.7645356663547,
+        "n": 488
+      },
+      "persistence": {
+        "coverage": 0.7704918032786885,
+        "width": 40.579237238816916,
+        "n": 488
+      }
+    },
+    "interval_by_group": {
+      "2023 Sep-Nov": {
+        "model": {
+          "coverage": 0.8571428571428571,
+          "width": 38.03505136150476,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.7142857142857143,
+          "width": 34.86939764224606,
+          "n": 91
+        }
+      },
+      "2023-24 Dec-Feb": {
+        "model": {
+          "coverage": 0.8461538461538461,
+          "width": 60.65051163927557,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.8021978021978022,
+          "width": 64.61195065312047,
+          "n": 91
+        }
+      },
+      "2024 Mar-May": {
+        "model": {
+          "coverage": 0.8478260869565217,
+          "width": 22.730070336975736,
+          "n": 92
+        },
+        "persistence": {
+          "coverage": 0.7934782608695652,
+          "width": 22.453757046323982,
+          "n": 92
+        }
+      },
+      "2024 Jun-Aug": {
+        "model": {
+          "coverage": 0.8043478260869565,
+          "width": 25.230349828756744,
+          "n": 92
+        },
+        "persistence": {
+          "coverage": 0.8478260869565217,
+          "width": 26.332707400618098,
+          "n": 92
+        }
+      },
+      "2024 Sep-Nov": {
+        "model": {
+          "coverage": 0.7582417582417582,
+          "width": 44.64075949780535,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.7582417582417582,
+          "width": 46.15799559866271,
+          "n": 91
+        }
+      },
+      "2024 Dec (partial)": {
+        "model": {
+          "coverage": 0.6774193548387096,
+          "width": 62.90449685685186,
+          "n": 31
+        },
+        "persistence": {
+          "coverage": 0.5806451612903226,
+          "width": 66.48815319572017,
+          "n": 31
+        }
+      }
+    },
+    "decision_primary": {
+      "Never flag": {
+        "fn": 252,
+        "fp": 0,
+        "flagged": 0,
+        "cost": 756.0
+      },
+      "Always flag": {
+        "fn": 0,
+        "fp": 236,
+        "flagged": 488,
+        "cost": 236.0
+      },
+      "Persistence (raw)": {
+        "fn": 32,
+        "fp": 32,
+        "flagged": 252,
+        "cost": 128.0
+      },
+      "Persistence + calibrated margin": {
+        "fn": 16,
+        "fp": 61,
+        "flagged": 297,
+        "cost": 109.0
+      },
+      "Model (raw)": {
+        "fn": 28,
+        "fp": 36,
+        "flagged": 260,
+        "cost": 120.0
+      },
+      "Model + calibrated margin": {
+        "fn": 9,
+        "fp": 71,
+        "flagged": 314,
+        "cost": 98.0
+      }
+    },
+    "decision_sensitivity": [
+      {
+        "threshold": 35,
+        "ratio": 1,
+        "model_cost": 54.0,
+        "persistence_cal_cost": 55.0,
+        "model_cost_advantage": 1.0,
+        "advantage_ci95_per_day": [
+          -0.01639344262295082,
+          0.020491803278688523
+        ],
+        "high_days": 391
+      },
+      {
+        "threshold": 35,
+        "ratio": 3,
+        "model_cost": 84.0,
+        "persistence_cal_cost": 77.0,
+        "model_cost_advantage": -7.0,
+        "advantage_ci95_per_day": [
+          -0.04918032786885246,
+          0.020491803278688523
+        ],
+        "high_days": 391
+      },
+      {
+        "threshold": 35,
+        "ratio": 5,
+        "model_cost": 93.0,
+        "persistence_cal_cost": 100.0,
+        "model_cost_advantage": 7.0,
+        "advantage_ci95_per_day": [
+          -0.0430327868852459,
+          0.07581967213114754
+        ],
+        "high_days": 391
+      },
+      {
+        "threshold": 55,
+        "ratio": 1,
+        "model_cost": 60.0,
+        "persistence_cal_cost": 66.0,
+        "model_cost_advantage": 6.0,
+        "advantage_ci95_per_day": [
+          -0.0020491803278688526,
+          0.02663934426229508
+        ],
+        "high_days": 252
+      },
+      {
+        "threshold": 55,
+        "ratio": 3,
+        "model_cost": 98.0,
+        "persistence_cal_cost": 109.0,
+        "model_cost_advantage": 11.0,
+        "advantage_ci95_per_day": [
+          -0.020491803278688523,
+          0.06557377049180328
+        ],
+        "high_days": 252
+      },
+      {
+        "threshold": 55,
+        "ratio": 5,
+        "model_cost": 100.0,
+        "persistence_cal_cost": 115.0,
+        "model_cost_advantage": 15.0,
+        "advantage_ci95_per_day": [
+          -0.01639344262295082,
+          0.07991803278688525
+        ],
+        "high_days": 252
+      },
+      {
+        "threshold": 100,
+        "ratio": 1,
+        "model_cost": 43.0,
+        "persistence_cal_cost": 40.0,
+        "model_cost_advantage": -3.0,
+        "advantage_ci95_per_day": [
+          -0.020491803278688523,
+          0.004098360655737705
+        ],
+        "high_days": 100
+      },
+      {
+        "threshold": 100,
+        "ratio": 3,
+        "model_cost": 68.0,
+        "persistence_cal_cost": 76.0,
+        "model_cost_advantage": 8.0,
+        "advantage_ci95_per_day": [
+          0.0020491803278688526,
+          0.03483606557377049
+        ],
+        "high_days": 100
+      },
+      {
+        "threshold": 100,
+        "ratio": 5,
+        "model_cost": 79.0,
+        "persistence_cal_cost": 100.0,
+        "model_cost_advantage": 21.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0942622950819672
+        ],
+        "high_days": 100
+      }
+    ]
+  },
+  "abrupt": {
+    "rule": "today differs from yesterday by more than the 90th percentile of |daily change| measured before 2023-09-01",
+    "cutoff_ug_m3": 34.48791666666666,
+    "dev": {
+      "abrupt_days": 30,
+      "mae_abrupt": 27.501282771530843,
+      "mae_other": 11.027694946069362
+    },
+    "supported_on_dev": true,
+    "bench": {
+      "abrupt_days": 30,
+      "mae_abrupt": 17.344561542802992,
+      "mae_other": 12.525246433172065
+    },
+    "hold": {
+      "abrupt_days": 14,
+      "mae_abrupt": 19.541682726837816,
+      "mae_other": 23.87358121234548
+    }
+  }
+}

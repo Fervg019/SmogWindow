@@ -1,0 +1,28 @@
+{
+  "raw_rows": 1298,
+  "raw_start": "2022-08-01",
+  "raw_end": "2026-02-18",
+  "raw_sha256": "ce1327775720bae72986a04edeab0cfdce0f778642be499570bdf8e6d152b0fb",
+  "source_type": "CAMS modeled estimates (Open-Meteo); NOT ground-sensor measurements",
+  "first_walkforward_target": "2023-03-01",
+  "last_target": "2026-02-18",
+  "windows": {
+    "development": [
+      "2023-09-01",
+      "2024-12-31",
+      488
+    ],
+    "benchmark_2025": [
+      "2025-01-01",
+      "2025-12-31",
+      365
+    ],
+    "holdout_2026": [
+      "2026-01-01",
+      "2026-02-18",
+      49
+    ]
+  },
+  "daily_timezone": "Not documented in the uploaded dataset.",
+  "forecast_issue_times": "Not available: retrospective dated-series evaluation, not a certified operational backtest."
+}

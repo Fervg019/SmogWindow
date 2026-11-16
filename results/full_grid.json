@@ -1,0 +1,1722 @@
+{
+  "bench_2025": {
+    "Persistence | global_abs": {
+      "coverage": {
+        "coverage": 0.7506849315068493,
+        "width": 36.57284246575342,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 73,
+        "flagged": 236,
+        "cost": 118.0
+      }
+    },
+    "Persistence | global_signed": {
+      "coverage": {
+        "coverage": 0.7534246575342466,
+        "width": 36.40950913242009,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 73,
+        "flagged": 236,
+        "cost": 118.0
+      }
+    },
+    "Persistence | trail90": {
+      "coverage": {
+        "coverage": 0.8136986301369863,
+        "width": 49.13899543378996,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 81,
+        "flagged": 245,
+        "cost": 123.0
+      }
+    },
+    "Persistence | trail180": {
+      "coverage": {
+        "coverage": 0.8082191780821918,
+        "width": 49.92077625570776,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 9,
+        "fp": 81,
+        "flagged": 250,
+        "cost": 108.0
+      }
+    },
+    "Persistence | level_bins": {
+      "coverage": {
+        "coverage": 0.7753424657534247,
+        "width": 38.09292237442923,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 67,
+        "flagged": 227,
+        "cost": 121.0
+      }
+    },
+    "Persistence | log_relative": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 42.725148649030835,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 72,
+        "flagged": 235,
+        "cost": 117.0
+      }
+    },
+    "Trailing 7-day mean | global_abs": {
+      "coverage": {
+        "coverage": 0.7397260273972602,
+        "width": 48.83722928897588,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 108,
+        "flagged": 271,
+        "cost": 153.0
+      }
+    },
+    "Trailing 7-day mean | global_signed": {
+      "coverage": {
+        "coverage": 0.7342465753424657,
+        "width": 48.74975375081541,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 108,
+        "flagged": 271,
+        "cost": 153.0
+      }
+    },
+    "Trailing 7-day mean | trail90": {
+      "coverage": {
+        "coverage": 0.8,
+        "width": 64.53580887149381,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 17,
+        "fp": 119,
+        "flagged": 280,
+        "cost": 170.0
+      }
+    },
+    "Trailing 7-day mean | trail180": {
+      "coverage": {
+        "coverage": 0.8164383561643835,
+        "width": 65.26233365949118,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 9,
+        "fp": 148,
+        "flagged": 317,
+        "cost": 175.0
+      }
+    },
+    "Trailing 7-day mean | level_bins": {
+      "coverage": {
+        "coverage": 0.7561643835616438,
+        "width": 52.754478147423356,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 17,
+        "fp": 100,
+        "flagged": 261,
+        "cost": 151.0
+      }
+    },
+    "Trailing 7-day mean | log_relative": {
+      "coverage": {
+        "coverage": 0.7698630136986301,
+        "width": 53.910163876212984,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 17,
+        "fp": 101,
+        "flagged": 262,
+        "cost": 152.0
+      }
+    },
+    "Seasonal climatology | global_abs": {
+      "coverage": {
+        "coverage": 0.863013698630137,
+        "width": 74.90319336534566,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 33,
+        "fp": 119,
+        "flagged": 264,
+        "cost": 218.0
+      }
+    },
+    "Seasonal climatology | global_signed": {
+      "coverage": {
+        "coverage": 0.8164383561643835,
+        "width": 68.54594547893335,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 33,
+        "fp": 119,
+        "flagged": 264,
+        "cost": 218.0
+      }
+    },
+    "Seasonal climatology | trail90": {
+      "coverage": {
+        "coverage": 0.7917808219178082,
+        "width": 64.5920656233326,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 17,
+        "fp": 143,
+        "flagged": 304,
+        "cost": 194.0
+      }
+    },
+    "Seasonal climatology | trail180": {
+      "coverage": {
+        "coverage": 0.810958904109589,
+        "width": 69.05971000166204,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 187,
+        "flagged": 365,
+        "cost": 187.0
+      }
+    },
+    "Seasonal climatology | level_bins": {
+      "coverage": {
+        "coverage": 0.8246575342465754,
+        "width": 59.04558379017498,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 23,
+        "fp": 110,
+        "flagged": 265,
+        "cost": 179.0
+      }
+    },
+    "Seasonal climatology | log_relative": {
+      "coverage": {
+        "coverage": 0.7945205479452054,
+        "width": 59.75690830802562,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 40,
+        "fp": 104,
+        "flagged": 242,
+        "cost": 224.0
+      }
+    },
+    "Persistence+climate 50/50 | global_abs": {
+      "coverage": {
+        "coverage": 0.8191780821917808,
+        "width": 46.83466805778506,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 19,
+        "fp": 67,
+        "flagged": 226,
+        "cost": 124.0
+      }
+    },
+    "Persistence+climate 50/50 | global_signed": {
+      "coverage": {
+        "coverage": 0.8082191780821918,
+        "width": 44.38501780715231,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 19,
+        "fp": 67,
+        "flagged": 226,
+        "cost": 124.0
+      }
+    },
+    "Persistence+climate 50/50 | trail90": {
+      "coverage": {
+        "coverage": 0.8027397260273973,
+        "width": 46.09653493107064,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 99,
+        "flagged": 262,
+        "cost": 144.0
+      }
+    },
+    "Persistence+climate 50/50 | trail180": {
+      "coverage": {
+        "coverage": 0.7917808219178082,
+        "width": 48.683141332588896,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 6,
+        "fp": 116,
+        "flagged": 288,
+        "cost": 134.0
+      }
+    },
+    "Persistence+climate 50/50 | level_bins": {
+      "coverage": {
+        "coverage": 0.7945205479452054,
+        "width": 41.298709996871814,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 27,
+        "fp": 50,
+        "flagged": 201,
+        "cost": 131.0
+      }
+    },
+    "Persistence+climate 50/50 | log_relative": {
+      "coverage": {
+        "coverage": 0.8,
+        "width": 42.59918029303131,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 22,
+        "fp": 62,
+        "flagged": 218,
+        "cost": 128.0
+      }
+    },
+    "Ridge minimal (a=100) | global_abs": {
+      "coverage": {
+        "coverage": 0.7561643835616438,
+        "width": 36.05787560544554,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 70,
+        "flagged": 230,
+        "cost": 124.0
+      }
+    },
+    "Ridge minimal (a=100) | global_signed": {
+      "coverage": {
+        "coverage": 0.7534246575342466,
+        "width": 35.68173717406839,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 70,
+        "flagged": 230,
+        "cost": 124.0
+      }
+    },
+    "Ridge minimal (a=100) | trail90": {
+      "coverage": {
+        "coverage": 0.810958904109589,
+        "width": 46.51697834774699,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 83,
+        "flagged": 247,
+        "cost": 125.0
+      }
+    },
+    "Ridge minimal (a=100) | trail180": {
+      "coverage": {
+        "coverage": 0.821917808219178,
+        "width": 48.289759414475235,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 88,
+        "flagged": 253,
+        "cost": 127.0
+      }
+    },
+    "Ridge minimal (a=100) | level_bins": {
+      "coverage": {
+        "coverage": 0.7972602739726027,
+        "width": 37.44174796643695,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 20,
+        "fp": 61,
+        "flagged": 219,
+        "cost": 121.0
+      }
+    },
+    "Ridge minimal (a=100) | log_relative": {
+      "coverage": {
+        "coverage": 0.7753424657534247,
+        "width": 38.75813030797953,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 20,
+        "fp": 65,
+        "flagged": 223,
+        "cost": 125.0
+      }
+    },
+    "Ridge history (a=100) | global_abs": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 36.55874991520002,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 76,
+        "flagged": 240,
+        "cost": 118.0
+      }
+    },
+    "Ridge history (a=100) | global_signed": {
+      "coverage": {
+        "coverage": 0.7616438356164383,
+        "width": 36.41616971317049,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 76,
+        "flagged": 240,
+        "cost": 118.0
+      }
+    },
+    "Ridge history (a=100) | trail90": {
+      "coverage": {
+        "coverage": 0.810958904109589,
+        "width": 44.62680118244072,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 83,
+        "flagged": 248,
+        "cost": 122.0
+      }
+    },
+    "Ridge history (a=100) | trail180": {
+      "coverage": {
+        "coverage": 0.8164383561643835,
+        "width": 46.77244675958224,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 10,
+        "fp": 84,
+        "flagged": 252,
+        "cost": 114.0
+      }
+    },
+    "Ridge history (a=100) | level_bins": {
+      "coverage": {
+        "coverage": 0.7917808219178082,
+        "width": 37.87007262017406,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 19,
+        "fp": 67,
+        "flagged": 226,
+        "cost": 124.0
+      }
+    },
+    "Ridge history (a=100) | log_relative": {
+      "coverage": {
+        "coverage": 0.7671232876712328,
+        "width": 38.02627435872715,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 16,
+        "fp": 72,
+        "flagged": 234,
+        "cost": 120.0
+      }
+    },
+    "Ridge history (a=1000) | global_abs": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 35.40014789754771,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 70,
+        "flagged": 234,
+        "cost": 112.0
+      }
+    },
+    "Ridge history (a=1000) | global_signed": {
+      "coverage": {
+        "coverage": 0.7616438356164383,
+        "width": 35.21964038504545,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 70,
+        "flagged": 234,
+        "cost": 112.0
+      }
+    },
+    "Ridge history (a=1000) | trail90": {
+      "coverage": {
+        "coverage": 0.810958904109589,
+        "width": 47.51440239876329,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 79,
+        "flagged": 244,
+        "cost": 118.0
+      }
+    },
+    "Ridge history (a=1000) | trail180": {
+      "coverage": {
+        "coverage": 0.821917808219178,
+        "width": 47.9042873758185,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 12,
+        "fp": 78,
+        "flagged": 244,
+        "cost": 114.0
+      }
+    },
+    "Ridge history (a=1000) | level_bins": {
+      "coverage": {
+        "coverage": 0.7890410958904109,
+        "width": 38.11736113054038,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 64,
+        "flagged": 224,
+        "cost": 118.0
+      }
+    },
+    "Ridge history (a=1000) | log_relative": {
+      "coverage": {
+        "coverage": 0.7643835616438356,
+        "width": 38.50369314658195,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 16,
+        "fp": 68,
+        "flagged": 230,
+        "cost": 116.0
+      }
+    },
+    "Log-ridge history (a=100) | global_abs": {
+      "coverage": {
+        "coverage": 0.7726027397260274,
+        "width": 38.94744503510262,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 76,
+        "flagged": 241,
+        "cost": 115.0
+      }
+    },
+    "Log-ridge history (a=100) | global_signed": {
+      "coverage": {
+        "coverage": 0.7698630136986301,
+        "width": 39.122615306922185,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 76,
+        "flagged": 241,
+        "cost": 115.0
+      }
+    },
+    "Log-ridge history (a=100) | trail90": {
+      "coverage": {
+        "coverage": 0.8082191780821918,
+        "width": 44.64802352917418,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 12,
+        "fp": 85,
+        "flagged": 251,
+        "cost": 121.0
+      }
+    },
+    "Log-ridge history (a=100) | trail180": {
+      "coverage": {
+        "coverage": 0.8136986301369863,
+        "width": 46.10975184281658,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 8,
+        "fp": 88,
+        "flagged": 258,
+        "cost": 112.0
+      }
+    },
+    "Log-ridge history (a=100) | level_bins": {
+      "coverage": {
+        "coverage": 0.7890410958904109,
+        "width": 39.2903921438301,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 66,
+        "flagged": 226,
+        "cost": 120.0
+      }
+    },
+    "Log-ridge history (a=100) | log_relative": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 39.62381156031959,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 72,
+        "flagged": 237,
+        "cost": 111.0
+      }
+    },
+    "Log-ridge history (a=1000) | global_abs": {
+      "coverage": {
+        "coverage": 0.7561643835616438,
+        "width": 37.4339218085132,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 12,
+        "fp": 79,
+        "flagged": 245,
+        "cost": 115.0
+      }
+    },
+    "Log-ridge history (a=1000) | global_signed": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 36.41993249634233,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 12,
+        "fp": 79,
+        "flagged": 245,
+        "cost": 115.0
+      }
+    },
+    "Log-ridge history (a=1000) | trail90": {
+      "coverage": {
+        "coverage": 0.810958904109589,
+        "width": 46.48743823952375,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 12,
+        "fp": 83,
+        "flagged": 249,
+        "cost": 119.0
+      }
+    },
+    "Log-ridge history (a=1000) | trail180": {
+      "coverage": {
+        "coverage": 0.8191780821917808,
+        "width": 47.23538660566999,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 7,
+        "fp": 85,
+        "flagged": 256,
+        "cost": 106.0
+      }
+    },
+    "Log-ridge history (a=1000) | level_bins": {
+      "coverage": {
+        "coverage": 0.7890410958904109,
+        "width": 38.09964182066026,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 64,
+        "flagged": 224,
+        "cost": 118.0
+      }
+    },
+    "Log-ridge history (a=1000) | log_relative": {
+      "coverage": {
+        "coverage": 0.7643835616438356,
+        "width": 39.677234505931004,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 16,
+        "fp": 69,
+        "flagged": 231,
+        "cost": 117.0
+      }
+    },
+    "Ridge full (a=1000) | global_abs": {
+      "coverage": {
+        "coverage": 0.7698630136986301,
+        "width": 35.07728970030519,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 71,
+        "flagged": 236,
+        "cost": 110.0
+      }
+    },
+    "Ridge full (a=1000) | global_signed": {
+      "coverage": {
+        "coverage": 0.7643835616438356,
+        "width": 35.15653945823119,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 71,
+        "flagged": 236,
+        "cost": 110.0
+      }
+    },
+    "Ridge full (a=1000) | trail90": {
+      "coverage": {
+        "coverage": 0.8082191780821918,
+        "width": 45.26115679890587,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 73,
+        "flagged": 237,
+        "cost": 115.0
+      }
+    },
+    "Ridge full (a=1000) | trail180": {
+      "coverage": {
+        "coverage": 0.821917808219178,
+        "width": 46.07052494475986,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 10,
+        "fp": 80,
+        "flagged": 248,
+        "cost": 110.0
+      }
+    },
+    "Ridge full (a=1000) | level_bins": {
+      "coverage": {
+        "coverage": 0.8027397260273973,
+        "width": 38.15785195353475,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 18,
+        "fp": 66,
+        "flagged": 226,
+        "cost": 120.0
+      }
+    },
+    "Ridge full (a=1000) | log_relative": {
+      "coverage": {
+        "coverage": 0.7945205479452054,
+        "width": 39.99635825322722,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 15,
+        "fp": 69,
+        "flagged": 232,
+        "cost": 114.0
+      }
+    },
+    "Boosted stumps (150) | global_abs": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 36.22377559384806,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 16,
+        "fp": 66,
+        "flagged": 228,
+        "cost": 114.0
+      }
+    },
+    "Boosted stumps (150) | global_signed": {
+      "coverage": {
+        "coverage": 0.7589041095890411,
+        "width": 35.753417959318284,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 16,
+        "fp": 66,
+        "flagged": 228,
+        "cost": 114.0
+      }
+    },
+    "Boosted stumps (150) | trail90": {
+      "coverage": {
+        "coverage": 0.810958904109589,
+        "width": 47.299174707730984,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 14,
+        "fp": 76,
+        "flagged": 240,
+        "cost": 118.0
+      }
+    },
+    "Boosted stumps (150) | trail180": {
+      "coverage": {
+        "coverage": 0.821917808219178,
+        "width": 46.65702414107191,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 13,
+        "fp": 74,
+        "flagged": 239,
+        "cost": 113.0
+      }
+    },
+    "Boosted stumps (150) | level_bins": {
+      "coverage": {
+        "coverage": 0.7835616438356164,
+        "width": 37.41350564051342,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 26,
+        "fp": 60,
+        "flagged": 212,
+        "cost": 138.0
+      }
+    },
+    "Boosted stumps (150) | log_relative": {
+      "coverage": {
+        "coverage": 0.7917808219178082,
+        "width": 40.19477585046027,
+        "n": 365
+      },
+      "decision_primary": {
+        "fn": 19,
+        "fp": 65,
+        "flagged": 224,
+        "cost": 122.0
+      }
+    }
+  },
+  "holdout_2026": {
+    "Persistence | global_abs": {
+      "coverage": {
+        "coverage": 0.5102040816326531,
+        "width": 38.93248299319729,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      }
+    },
+    "Persistence | global_signed": {
+      "coverage": {
+        "coverage": 0.5102040816326531,
+        "width": 38.54965986394557,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      }
+    },
+    "Persistence | trail90": {
+      "coverage": {
+        "coverage": 0.6122448979591837,
+        "width": 64.0062925170068,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Persistence | trail180": {
+      "coverage": {
+        "coverage": 0.5714285714285714,
+        "width": 46.50229591836734,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Persistence | level_bins": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 55.8063775510204,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      }
+    },
+    "Persistence | log_relative": {
+      "coverage": {
+        "coverage": 0.7551020408163265,
+        "width": 79.07708321358687,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      }
+    },
+    "Trailing 7-day mean | global_abs": {
+      "coverage": {
+        "coverage": 0.5306122448979592,
+        "width": 50.74249271137027,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Trailing 7-day mean | global_signed": {
+      "coverage": {
+        "coverage": 0.5510204081632653,
+        "width": 50.39923469387755,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Trailing 7-day mean | trail90": {
+      "coverage": {
+        "coverage": 0.7346938775510204,
+        "width": 94.95879494655003,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Trailing 7-day mean | trail180": {
+      "coverage": {
+        "coverage": 0.5714285714285714,
+        "width": 67.9171404275996,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Trailing 7-day mean | level_bins": {
+      "coverage": {
+        "coverage": 0.6938775510204082,
+        "width": 82.3430879494655,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Trailing 7-day mean | log_relative": {
+      "coverage": {
+        "coverage": 0.7755102040816326,
+        "width": 102.68686936192006,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Seasonal climatology | global_abs": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 72.91809204037315,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Seasonal climatology | global_signed": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 70.25448625313345,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Seasonal climatology | trail90": {
+      "coverage": {
+        "coverage": 0.7551020408163265,
+        "width": 96.99314820715196,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Seasonal climatology | trail180": {
+      "coverage": {
+        "coverage": 0.5510204081632653,
+        "width": 67.13059554383204,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Seasonal climatology | level_bins": {
+      "coverage": {
+        "coverage": 0.5918367346938775,
+        "width": 85.82293867940952,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Seasonal climatology | log_relative": {
+      "coverage": {
+        "coverage": 0.6938775510204082,
+        "width": 95.82713452736502,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Persistence+climate 50/50 | global_abs": {
+      "coverage": {
+        "coverage": 0.5918367346938775,
+        "width": 46.32330011009014,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Persistence+climate 50/50 | global_signed": {
+      "coverage": {
+        "coverage": 0.5306122448979592,
+        "width": 44.10539115087616,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Persistence+climate 50/50 | trail90": {
+      "coverage": {
+        "coverage": 0.673469387755102,
+        "width": 66.32089837191235,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Persistence+climate 50/50 | trail180": {
+      "coverage": {
+        "coverage": 0.5510204081632653,
+        "width": 44.9506214810324,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Persistence+climate 50/50 | level_bins": {
+      "coverage": {
+        "coverage": 0.673469387755102,
+        "width": 61.281272043068924,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Persistence+climate 50/50 | log_relative": {
+      "coverage": {
+        "coverage": 0.7142857142857143,
+        "width": 73.06753308714288,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Ridge minimal (a=100) | global_abs": {
+      "coverage": {
+        "coverage": 0.46938775510204084,
+        "width": 37.90512607468283,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge minimal (a=100) | global_signed": {
+      "coverage": {
+        "coverage": 0.46938775510204084,
+        "width": 37.78211737565671,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge minimal (a=100) | trail90": {
+      "coverage": {
+        "coverage": 0.6530612244897959,
+        "width": 63.05687905454287,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Ridge minimal (a=100) | trail180": {
+      "coverage": {
+        "coverage": 0.5510204081632653,
+        "width": 46.66220924376526,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge minimal (a=100) | level_bins": {
+      "coverage": {
+        "coverage": 0.5918367346938775,
+        "width": 55.742862411709275,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Ridge minimal (a=100) | log_relative": {
+      "coverage": {
+        "coverage": 0.7346938775510204,
+        "width": 68.52374521993909,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Ridge history (a=100) | global_abs": {
+      "coverage": {
+        "coverage": 0.4897959183673469,
+        "width": 38.02034620746798,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=100) | global_signed": {
+      "coverage": {
+        "coverage": 0.4897959183673469,
+        "width": 37.76037749027995,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=100) | trail90": {
+      "coverage": {
+        "coverage": 0.6530612244897959,
+        "width": 62.02298857433388,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Ridge history (a=100) | trail180": {
+      "coverage": {
+        "coverage": 0.5306122448979592,
+        "width": 45.136395160541845,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=100) | level_bins": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 56.5800717066232,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=100) | log_relative": {
+      "coverage": {
+        "coverage": 0.7551020408163265,
+        "width": 67.30826164929866,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=1000) | global_abs": {
+      "coverage": {
+        "coverage": 0.4897959183673469,
+        "width": 37.83412673394707,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=1000) | global_signed": {
+      "coverage": {
+        "coverage": 0.4897959183673469,
+        "width": 37.66317701593299,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=1000) | trail90": {
+      "coverage": {
+        "coverage": 0.6530612244897959,
+        "width": 62.96404892291076,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Ridge history (a=1000) | trail180": {
+      "coverage": {
+        "coverage": 0.5102040816326531,
+        "width": 46.199888088812266,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge history (a=1000) | level_bins": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 57.95248557322525,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      }
+    },
+    "Ridge history (a=1000) | log_relative": {
+      "coverage": {
+        "coverage": 0.7346938775510204,
+        "width": 68.78580608463021,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Log-ridge history (a=100) | global_abs": {
+      "coverage": {
+        "coverage": 0.4489795918367347,
+        "width": 40.538778071897624,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=100) | global_signed": {
+      "coverage": {
+        "coverage": 0.4489795918367347,
+        "width": 40.44216624911517,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=100) | trail90": {
+      "coverage": {
+        "coverage": 0.6122448979591837,
+        "width": 63.64674449328586,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Log-ridge history (a=100) | trail180": {
+      "coverage": {
+        "coverage": 0.46938775510204084,
+        "width": 49.2023305342834,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=100) | level_bins": {
+      "coverage": {
+        "coverage": 0.6122448979591837,
+        "width": 59.3564379895876,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=100) | log_relative": {
+      "coverage": {
+        "coverage": 0.673469387755102,
+        "width": 66.80879047432819,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=1000) | global_abs": {
+      "coverage": {
+        "coverage": 0.4489795918367347,
+        "width": 39.12022811502714,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=1000) | global_signed": {
+      "coverage": {
+        "coverage": 0.46938775510204084,
+        "width": 38.54919538591421,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=1000) | trail90": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 62.98087206030378,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Log-ridge history (a=1000) | trail180": {
+      "coverage": {
+        "coverage": 0.5102040816326531,
+        "width": 46.261351883746364,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Log-ridge history (a=1000) | level_bins": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 56.554107347256156,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      }
+    },
+    "Log-ridge history (a=1000) | log_relative": {
+      "coverage": {
+        "coverage": 0.6938775510204082,
+        "width": 68.90429388254942,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Ridge full (a=1000) | global_abs": {
+      "coverage": {
+        "coverage": 0.4489795918367347,
+        "width": 37.163562747229,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge full (a=1000) | global_signed": {
+      "coverage": {
+        "coverage": 0.42857142857142855,
+        "width": 36.82958707429726,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge full (a=1000) | trail90": {
+      "coverage": {
+        "coverage": 0.6530612244897959,
+        "width": 61.12892033725095,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Ridge full (a=1000) | trail180": {
+      "coverage": {
+        "coverage": 0.5102040816326531,
+        "width": 45.8530736202918,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge full (a=1000) | level_bins": {
+      "coverage": {
+        "coverage": 0.6530612244897959,
+        "width": 57.25445728845128,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Ridge full (a=1000) | log_relative": {
+      "coverage": {
+        "coverage": 0.7551020408163265,
+        "width": 71.56573765717214,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "Boosted stumps (150) | global_abs": {
+      "coverage": {
+        "coverage": 0.46938775510204084,
+        "width": 38.60986965614022,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Boosted stumps (150) | global_signed": {
+      "coverage": {
+        "coverage": 0.46938775510204084,
+        "width": 37.92248581538802,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Boosted stumps (150) | trail90": {
+      "coverage": {
+        "coverage": 0.673469387755102,
+        "width": 61.398281335221355,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      }
+    },
+    "Boosted stumps (150) | trail180": {
+      "coverage": {
+        "coverage": 0.5510204081632653,
+        "width": 46.26393450956394,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Boosted stumps (150) | level_bins": {
+      "coverage": {
+        "coverage": 0.6326530612244898,
+        "width": 54.46713927766211,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    },
+    "Boosted stumps (150) | log_relative": {
+      "coverage": {
+        "coverage": 0.7551020408163265,
+        "width": 71.52687916733747,
+        "n": 49
+      },
+      "decision_primary": {
+        "fn": 1,
+        "fp": 4,
+        "flagged": 47,
+        "cost": 7.0
+      }
+    }
+  }
+}

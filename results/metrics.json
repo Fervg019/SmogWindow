@@ -1,0 +1,871 @@
+{
+  "frozen": {
+    "forecast_model": "Ridge full (a=1000)",
+    "forecast_model_config": {
+      "kind": "ridge",
+      "alpha": 1000,
+      "features": "full"
+    },
+    "uncertainty_scheme": "log_relative",
+    "uncertainty_label": "Relative (log-scale) errors",
+    "best_baseline_on_dev": "Persistence",
+    "primary_threshold": 55.0,
+    "primary_cost_ratio": 3.0,
+    "selected_using": "2023-09-01 to 2024-12-31 only",
+    "refit": "monthly, expanding window, target dates before the month start",
+    "abrupt_flag_supported_on_dev": true,
+    "abrupt_cutoff": 34.48791666666666,
+    "sha256": "c55fb4fb62ddaef5bfe4fb3e16cfe09e6ddbe884a2b6f473541f271e00cae517"
+  },
+  "pooled_2025_2026_decision": [
+    {
+      "threshold": 35,
+      "ratio": 3,
+      "days": 414,
+      "model_cost_advantage": 6.0,
+      "advantage_ci95_per_day": [
+        -0.007246376811594203,
+        0.04106280193236715
+      ]
+    },
+    {
+      "threshold": 55,
+      "ratio": 3,
+      "days": 414,
+      "model_cost_advantage": 9.0,
+      "advantage_ci95_per_day": [
+        -0.021739130434782608,
+        0.06763285024154589
+      ]
+    },
+    {
+      "threshold": 100,
+      "ratio": 3,
+      "days": 414,
+      "model_cost_advantage": 11.0,
+      "advantage_ci95_per_day": [
+        0.004830917874396135,
+        0.05314009661835749
+      ]
+    }
+  ],
+  "dev": {
+    "n": 488,
+    "forecast": {
+      "Persistence": {
+        "mae": 12.467793715846993,
+        "rmse": 18.25954668920955
+      },
+      "Trailing 7-day mean": {
+        "mae": 17.12240681108509,
+        "rmse": 24.616594511211144
+      },
+      "Seasonal climatology": {
+        "mae": 23.352720631026507,
+        "rmse": 30.41919177286548
+      },
+      "Persistence+climate 50/50": {
+        "mae": 14.784484563217136,
+        "rmse": 19.883353703266017
+      },
+      "Ridge minimal (a=100)": {
+        "mae": 12.235680572163048,
+        "rmse": 17.657657892903035
+      },
+      "Ridge history (a=100)": {
+        "mae": 12.396804209445833,
+        "rmse": 17.69196477029334
+      },
+      "Ridge history (a=1000)": {
+        "mae": 12.156085477163753,
+        "rmse": 17.776129780223094
+      },
+      "Log-ridge history (a=100)": {
+        "mae": 13.255599730828687,
+        "rmse": 18.992392379654063
+      },
+      "Log-ridge history (a=1000)": {
+        "mae": 12.429722148136996,
+        "rmse": 17.819714811100983
+      },
+      "Ridge full (a=1000)": {
+        "mae": 12.040415509110025,
+        "rmse": 17.50151751183828
+      },
+      "Boosted stumps (150)": {
+        "mae": 12.21619691657373,
+        "rmse": 17.40282955472537
+      }
+    },
+    "mae_gain_vs_persistence": 0.42737820673696697,
+    "mae_gain_ci95": [
+      0.06394963424101818,
+      0.7945891649646067
+    ],
+    "mae_gain_pct": 3.4278575382086616,
+    "interval": {
+      "model": {
+        "coverage": 0.8135245901639344,
+        "width": 39.7645356663547,
+        "n": 488
+      },
+      "persistence": {
+        "coverage": 0.7704918032786885,
+        "width": 40.579237238816916,
+        "n": 488
+      }
+    },
+    "interval_by_group": {
+      "2023 Sep-Nov": {
+        "model": {
+          "coverage": 0.8571428571428571,
+          "width": 38.03505136150476,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.7142857142857143,
+          "width": 34.86939764224606,
+          "n": 91
+        }
+      },
+      "2023-24 Dec-Feb": {
+        "model": {
+          "coverage": 0.8461538461538461,
+          "width": 60.65051163927557,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.8021978021978022,
+          "width": 64.61195065312047,
+          "n": 91
+        }
+      },
+      "2024 Mar-May": {
+        "model": {
+          "coverage": 0.8478260869565217,
+          "width": 22.730070336975736,
+          "n": 92
+        },
+        "persistence": {
+          "coverage": 0.7934782608695652,
+          "width": 22.453757046323982,
+          "n": 92
+        }
+      },
+      "2024 Jun-Aug": {
+        "model": {
+          "coverage": 0.8043478260869565,
+          "width": 25.230349828756744,
+          "n": 92
+        },
+        "persistence": {
+          "coverage": 0.8478260869565217,
+          "width": 26.332707400618098,
+          "n": 92
+        }
+      },
+      "2024 Sep-Nov": {
+        "model": {
+          "coverage": 0.7582417582417582,
+          "width": 44.64075949780535,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.7582417582417582,
+          "width": 46.15799559866271,
+          "n": 91
+        }
+      },
+      "2024 Dec (partial)": {
+        "model": {
+          "coverage": 0.6774193548387096,
+          "width": 62.90449685685186,
+          "n": 31
+        },
+        "persistence": {
+          "coverage": 0.5806451612903226,
+          "width": 66.48815319572017,
+          "n": 31
+        }
+      }
+    },
+    "decision_primary": {
+      "Never flag": {
+        "fn": 252,
+        "fp": 0,
+        "flagged": 0,
+        "cost": 756.0
+      },
+      "Always flag": {
+        "fn": 0,
+        "fp": 236,
+        "flagged": 488,
+        "cost": 236.0
+      },
+      "Persistence (raw)": {
+        "fn": 32,
+        "fp": 32,
+        "flagged": 252,
+        "cost": 128.0
+      },
+      "Persistence + calibrated margin": {
+        "fn": 16,
+        "fp": 61,
+        "flagged": 297,
+        "cost": 109.0
+      },
+      "Model (raw)": {
+        "fn": 28,
+        "fp": 36,
+        "flagged": 260,
+        "cost": 120.0
+      },
+      "Model + calibrated margin": {
+        "fn": 9,
+        "fp": 71,
+        "flagged": 314,
+        "cost": 98.0
+      }
+    },
+    "decision_sensitivity": [
+      {
+        "threshold": 35,
+        "ratio": 1,
+        "model_cost": 54.0,
+        "persistence_cal_cost": 55.0,
+        "model_cost_advantage": 1.0,
+        "advantage_ci95_per_day": [
+          -0.01639344262295082,
+          0.020491803278688523
+        ],
+        "high_days": 391
+      },
+      {
+        "threshold": 35,
+        "ratio": 3,
+        "model_cost": 84.0,
+        "persistence_cal_cost": 77.0,
+        "model_cost_advantage": -7.0,
+        "advantage_ci95_per_day": [
+          -0.04918032786885246,
+          0.020491803278688523
+        ],
+        "high_days": 391
+      },
+      {
+        "threshold": 35,
+        "ratio": 5,
+        "model_cost": 93.0,
+        "persistence_cal_cost": 100.0,
+        "model_cost_advantage": 7.0,
+        "advantage_ci95_per_day": [
+          -0.0430327868852459,
+          0.07581967213114754
+        ],
+        "high_days": 391
+      },
+      {
+        "threshold": 55,
+        "ratio": 1,
+        "model_cost": 60.0,
+        "persistence_cal_cost": 66.0,
+        "model_cost_advantage": 6.0,
+        "advantage_ci95_per_day": [
+          -0.0020491803278688526,
+          0.02663934426229508
+        ],
+        "high_days": 252
+      },
+      {
+        "threshold": 55,
+        "ratio": 3,
+        "model_cost": 98.0,
+        "persistence_cal_cost": 109.0,
+        "model_cost_advantage": 11.0,
+        "advantage_ci95_per_day": [
+          -0.020491803278688523,
+          0.06557377049180328
+        ],
+        "high_days": 252
+      },
+      {
+        "threshold": 55,
+        "ratio": 5,
+        "model_cost": 100.0,
+        "persistence_cal_cost": 115.0,
+        "model_cost_advantage": 15.0,
+        "advantage_ci95_per_day": [
+          -0.01639344262295082,
+          0.07991803278688525
+        ],
+        "high_days": 252
+      },
+      {
+        "threshold": 100,
+        "ratio": 1,
+        "model_cost": 43.0,
+        "persistence_cal_cost": 40.0,
+        "model_cost_advantage": -3.0,
+        "advantage_ci95_per_day": [
+          -0.020491803278688523,
+          0.004098360655737705
+        ],
+        "high_days": 100
+      },
+      {
+        "threshold": 100,
+        "ratio": 3,
+        "model_cost": 68.0,
+        "persistence_cal_cost": 76.0,
+        "model_cost_advantage": 8.0,
+        "advantage_ci95_per_day": [
+          0.0020491803278688526,
+          0.03483606557377049
+        ],
+        "high_days": 100
+      },
+      {
+        "threshold": 100,
+        "ratio": 5,
+        "model_cost": 79.0,
+        "persistence_cal_cost": 100.0,
+        "model_cost_advantage": 21.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0942622950819672
+        ],
+        "high_days": 100
+      }
+    ]
+  },
+  "benchmark_2025": {
+    "n": 365,
+    "forecast": {
+      "Persistence": {
+        "mae": 14.053698630136987,
+        "rmse": 20.951665458460745
+      },
+      "Trailing 7-day mean": {
+        "mae": 19.14974396607958,
+        "rmse": 26.615245144132953
+      },
+      "Seasonal climatology": {
+        "mae": 19.263677647447768,
+        "rmse": 25.808138937687644
+      },
+      "Persistence+climate 50/50": {
+        "mae": 13.994863551958959,
+        "rmse": 19.58856291554744
+      },
+      "Ridge minimal (a=100)": {
+        "mae": 13.192363118523922,
+        "rmse": 19.451975684717457
+      },
+      "Ridge history (a=100)": {
+        "mae": 12.733184566533964,
+        "rmse": 18.670819783604397
+      },
+      "Ridge history (a=1000)": {
+        "mae": 13.212083478265951,
+        "rmse": 19.682742368200994
+      },
+      "Log-ridge history (a=100)": {
+        "mae": 12.753644271096443,
+        "rmse": 18.342614091435365
+      },
+      "Log-ridge history (a=1000)": {
+        "mae": 13.232720592708883,
+        "rmse": 19.384292496990877
+      },
+      "Ridge full (a=1000)": {
+        "mae": 12.921354524374607,
+        "rmse": 19.156959222975463
+      },
+      "Boosted stumps (150)": {
+        "mae": 13.364344264998923,
+        "rmse": 19.528650450988394
+      }
+    },
+    "mae_gain_vs_persistence": 1.1323441057623786,
+    "mae_gain_ci95": [
+      0.6444429001949513,
+      1.6468735391040057
+    ],
+    "mae_gain_pct": 8.057267595977624,
+    "interval": {
+      "model": {
+        "coverage": 0.7945205479452054,
+        "width": 39.99635825322722,
+        "n": 365
+      },
+      "persistence": {
+        "coverage": 0.7589041095890411,
+        "width": 42.725148649030835,
+        "n": 365
+      }
+    },
+    "interval_by_group": {
+      "Winter": {
+        "model": {
+          "coverage": 0.7555555555555555,
+          "width": 62.678529668951924,
+          "n": 90
+        },
+        "persistence": {
+          "coverage": 0.7333333333333333,
+          "width": 66.66016938111352,
+          "n": 90
+        }
+      },
+      "Spring": {
+        "model": {
+          "coverage": 0.7608695652173914,
+          "width": 26.267879325087428,
+          "n": 92
+        },
+        "persistence": {
+          "coverage": 0.6956521739130435,
+          "width": 28.268982964951444,
+          "n": 92
+        }
+      },
+      "Summer": {
+        "model": {
+          "coverage": 0.75,
+          "width": 30.08593454776557,
+          "n": 92
+        },
+        "persistence": {
+          "coverage": 0.7391304347826086,
+          "width": 32.59854028241248,
+          "n": 92
+        }
+      },
+      "Autumn": {
+        "model": {
+          "coverage": 0.9120879120879121,
+          "width": 41.462112262854795,
+          "n": 91
+        },
+        "persistence": {
+          "coverage": 0.8681318681318682,
+          "width": 43.90606454767645,
+          "n": 91
+        }
+      }
+    },
+    "decision_primary": {
+      "Never flag": {
+        "fn": 178,
+        "fp": 0,
+        "flagged": 0,
+        "cost": 534.0
+      },
+      "Always flag": {
+        "fn": 0,
+        "fp": 187,
+        "flagged": 365,
+        "cost": 187.0
+      },
+      "Persistence (raw)": {
+        "fn": 37,
+        "fp": 37,
+        "flagged": 178,
+        "cost": 148.0
+      },
+      "Persistence + calibrated margin": {
+        "fn": 15,
+        "fp": 72,
+        "flagged": 235,
+        "cost": 117.0
+      },
+      "Model (raw)": {
+        "fn": 32,
+        "fp": 43,
+        "flagged": 189,
+        "cost": 139.0
+      },
+      "Model + calibrated margin": {
+        "fn": 15,
+        "fp": 69,
+        "flagged": 232,
+        "cost": 114.0
+      }
+    },
+    "decision_sensitivity": [
+      {
+        "threshold": 35,
+        "ratio": 1,
+        "model_cost": 39.0,
+        "persistence_cal_cost": 46.0,
+        "model_cost_advantage": 7.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0410958904109589
+        ],
+        "high_days": 314
+      },
+      {
+        "threshold": 35,
+        "ratio": 3,
+        "model_cost": 39.0,
+        "persistence_cal_cost": 45.0,
+        "model_cost_advantage": 6.0,
+        "advantage_ci95_per_day": [
+          -0.00821917808219178,
+          0.04657534246575343
+        ],
+        "high_days": 314
+      },
+      {
+        "threshold": 35,
+        "ratio": 5,
+        "model_cost": 37.0,
+        "persistence_cal_cost": 38.0,
+        "model_cost_advantage": 1.0,
+        "advantage_ci95_per_day": [
+          -0.019178082191780823,
+          0.03287671232876712
+        ],
+        "high_days": 314
+      },
+      {
+        "threshold": 55,
+        "ratio": 1,
+        "model_cost": 66.0,
+        "persistence_cal_cost": 74.0,
+        "model_cost_advantage": 8.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.043835616438356165
+        ],
+        "high_days": 178
+      },
+      {
+        "threshold": 55,
+        "ratio": 3,
+        "model_cost": 114.0,
+        "persistence_cal_cost": 117.0,
+        "model_cost_advantage": 3.0,
+        "advantage_ci95_per_day": [
+          -0.03561643835616438,
+          0.057534246575342465
+        ],
+        "high_days": 178
+      },
+      {
+        "threshold": 55,
+        "ratio": 5,
+        "model_cost": 129.0,
+        "persistence_cal_cost": 139.0,
+        "model_cost_advantage": 10.0,
+        "advantage_ci95_per_day": [
+          -0.010958904109589041,
+          0.07397260273972603
+        ],
+        "high_days": 178
+      },
+      {
+        "threshold": 100,
+        "ratio": 1,
+        "model_cost": 32.0,
+        "persistence_cal_cost": 34.0,
+        "model_cost_advantage": 2.0,
+        "advantage_ci95_per_day": [
+          -0.00821917808219178,
+          0.019178082191780823
+        ],
+        "high_days": 73
+      },
+      {
+        "threshold": 100,
+        "ratio": 3,
+        "model_cost": 33.0,
+        "persistence_cal_cost": 41.0,
+        "model_cost_advantage": 8.0,
+        "advantage_ci95_per_day": [
+          0.0027397260273972603,
+          0.04657534246575343
+        ],
+        "high_days": 73
+      },
+      {
+        "threshold": 100,
+        "ratio": 5,
+        "model_cost": 40.0,
+        "persistence_cal_cost": 45.0,
+        "model_cost_advantage": 5.0,
+        "advantage_ci95_per_day": [
+          -0.0273972602739726,
+          0.0547945205479452
+        ],
+        "high_days": 73
+      }
+    ],
+    "abrupt": {
+      "abrupt_days": 30,
+      "mae_abrupt": 17.344561542802992,
+      "mae_other": 12.525246433172065
+    }
+  },
+  "holdout_2026": {
+    "n": 49,
+    "forecast": {
+      "Persistence": {
+        "mae": 24.3530612244898,
+        "rmse": 30.23903912100137
+      },
+      "Trailing 7-day mean": {
+        "mae": 32.96098153547133,
+        "rmse": 44.31561688185522
+      },
+      "Seasonal climatology": {
+        "mae": 33.99653913386867,
+        "rmse": 44.305014634190904
+      },
+      "Persistence+climate 50/50": {
+        "mae": 23.886489712992987,
+        "rmse": 30.520172608003424
+      },
+      "Ridge minimal (a=100)": {
+        "mae": 23.381560870792146,
+        "rmse": 29.369789378916057
+      },
+      "Ridge history (a=100)": {
+        "mae": 23.419398691989585,
+        "rmse": 29.774319078471372
+      },
+      "Ridge history (a=1000)": {
+        "mae": 23.17393512524454,
+        "rmse": 29.428524266527102
+      },
+      "Log-ridge history (a=100)": {
+        "mae": 28.54753304911669,
+        "rmse": 36.25214924281964
+      },
+      "Log-ridge history (a=1000)": {
+        "mae": 25.011099576491855,
+        "rmse": 31.891124582841243
+      },
+      "Ridge full (a=1000)": {
+        "mae": 22.635895930771863,
+        "rmse": 28.789887615167785
+      },
+      "Boosted stumps (150)": {
+        "mae": 22.01666936961457,
+        "rmse": 27.97007062273605
+      }
+    },
+    "mae_gain_vs_persistence": 1.7171652937179334,
+    "mae_gain_ci95": [
+      0.05960029873704195,
+      3.418679577652854
+    ],
+    "mae_gain_pct": 7.051127075519879,
+    "interval": {
+      "model": {
+        "coverage": 0.7551020408163265,
+        "width": 71.56573765717214,
+        "n": 49
+      },
+      "persistence": {
+        "coverage": 0.7551020408163265,
+        "width": 79.07708321358687,
+        "n": 49
+      }
+    },
+    "interval_by_group": {
+      "Jan-Feb 2026": {
+        "model": {
+          "coverage": 0.7551020408163265,
+          "width": 71.56573765717214,
+          "n": 49
+        },
+        "persistence": {
+          "coverage": 0.7551020408163265,
+          "width": 79.07708321358687,
+          "n": 49
+        }
+      }
+    },
+    "decision_primary": {
+      "Never flag": {
+        "fn": 44,
+        "fp": 0,
+        "flagged": 0,
+        "cost": 132.0
+      },
+      "Always flag": {
+        "fn": 0,
+        "fp": 5,
+        "flagged": 49,
+        "cost": 5.0
+      },
+      "Persistence (raw)": {
+        "fn": 3,
+        "fp": 3,
+        "flagged": 44,
+        "cost": 12.0
+      },
+      "Persistence + calibrated margin": {
+        "fn": 2,
+        "fp": 4,
+        "flagged": 46,
+        "cost": 10.0
+      },
+      "Model (raw)": {
+        "fn": 2,
+        "fp": 3,
+        "flagged": 45,
+        "cost": 9.0
+      },
+      "Model + calibrated margin": {
+        "fn": 0,
+        "fp": 4,
+        "flagged": 48,
+        "cost": 4.0
+      }
+    },
+    "decision_sensitivity": [
+      {
+        "threshold": 35,
+        "ratio": 1,
+        "model_cost": 1.0,
+        "persistence_cal_cost": 2.0,
+        "model_cost_advantage": 1.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.061224489795918366
+        ],
+        "high_days": 48
+      },
+      {
+        "threshold": 35,
+        "ratio": 3,
+        "model_cost": 1.0,
+        "persistence_cal_cost": 1.0,
+        "model_cost_advantage": 0.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0
+        ],
+        "high_days": 48
+      },
+      {
+        "threshold": 35,
+        "ratio": 5,
+        "model_cost": 1.0,
+        "persistence_cal_cost": 1.0,
+        "model_cost_advantage": 0.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0
+        ],
+        "high_days": 48
+      },
+      {
+        "threshold": 55,
+        "ratio": 1,
+        "model_cost": 5.0,
+        "persistence_cal_cost": 6.0,
+        "model_cost_advantage": 1.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.061224489795918366
+        ],
+        "high_days": 44
+      },
+      {
+        "threshold": 55,
+        "ratio": 3,
+        "model_cost": 4.0,
+        "persistence_cal_cost": 10.0,
+        "model_cost_advantage": 6.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.24489795918367346
+        ],
+        "high_days": 44
+      },
+      {
+        "threshold": 55,
+        "ratio": 5,
+        "model_cost": 4.0,
+        "persistence_cal_cost": 9.0,
+        "model_cost_advantage": 5.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.30612244897959184
+        ],
+        "high_days": 44
+      },
+      {
+        "threshold": 100,
+        "ratio": 1,
+        "model_cost": 5.0,
+        "persistence_cal_cost": 5.0,
+        "model_cost_advantage": 0.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0
+        ],
+        "high_days": 28
+      },
+      {
+        "threshold": 100,
+        "ratio": 3,
+        "model_cost": 9.0,
+        "persistence_cal_cost": 12.0,
+        "model_cost_advantage": 3.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.1836734693877551
+        ],
+        "high_days": 28
+      },
+      {
+        "threshold": 100,
+        "ratio": 5,
+        "model_cost": 12.0,
+        "persistence_cal_cost": 12.0,
+        "model_cost_advantage": 0.0,
+        "advantage_ci95_per_day": [
+          0.0,
+          0.0
+        ],
+        "high_days": 28
+      }
+    ],
+    "abrupt": {
+      "abrupt_days": 14,
+      "mae_abrupt": 19.541682726837816,
+      "mae_other": 23.87358121234548
+    }
+  },
+  "abrupt": {
+    "rule": "today differs from yesterday by more than the 90th percentile of |daily change| measured before 2023-09-01",
+    "cutoff_ug_m3": 34.48791666666666,
+    "dev": {
+      "abrupt_days": 30,
+      "mae_abrupt": 27.501282771530843,
+      "mae_other": 11.027694946069362
+    },
+    "supported_on_dev": true,
+    "bench": {
+      "abrupt_days": 30,
+      "mae_abrupt": 17.344561542802992,
+      "mae_other": 12.525246433172065
+    },
+    "hold": {
+      "abrupt_days": 14,
+      "mae_abrupt": 19.541682726837816,
+      "mae_other": 23.87358121234548
+    }
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "not_interviewed",
+  "role": null,
+  "interview_date": null,
+  "consent_to_use_anonymous_feedback": false,
+  "activity": null,
+  "decision_time_local": null,
+  "existing_policy_or_source": null,
+  "unnecessary_cancellation_consequence": null,
+  "missed_pollution_consequence": null,
+  "prototype_feedback_verbatim": null,
+  "requested_changes": null,
+  "threshold_if_their_policy_specifies_one": null,
+  "cost_ratio_if_they_can_justify_one": null
+}

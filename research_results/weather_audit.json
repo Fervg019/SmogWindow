@@ -1,0 +1,21 @@
+{
+  "source_file": "weather_hourly_utc.csv",
+  "sha256": "65c665f10e4e7a71d3019416568778b505a93f46923adcf2fa804797859a2c18",
+  "metadata": {
+    "latitude": 31.599297,
+    "longitude": 74.371254,
+    "elevation": 219.0,
+    "utc_offset_seconds": 0,
+    "timezone": "GMT",
+    "timezone_abbreviation": "GMT"
+  },
+  "hourly_rows": 31152,
+  "first_hour": "2022-08-01 00:00:00",
+  "last_hour": "2026-02-18 23:00:00",
+  "complete_days": 1298,
+  "incomplete_days": 0,
+  "forecast_issue_time_available": false,
+  "weather_product": "not specified by supplied export",
+  "timing": "one UTC day lag before origin-date inputs",
+  "coordinates_note": "Weather grid coordinates differ from pollution city coordinates; both represent gridded model products, not school measurements."
+}

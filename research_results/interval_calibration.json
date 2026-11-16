@@ -1,0 +1,41 @@
+{
+  "window": 60,
+  "selection": "development interval score only; entire experiment designed after benchmark inspection",
+  "development": {
+    "60": {
+      "interval_score": 58.44464651639344,
+      "coverage": 0.8237704918032787,
+      "width": 42.993229166666666
+    },
+    "90": {
+      "interval_score": 58.83865266393442,
+      "coverage": 0.8176229508196722,
+      "width": 41.869219603825144
+    },
+    "180": {
+      "interval_score": 58.880951161202184,
+      "coverage": 0.8073770491803278,
+      "width": 40.77644296448088
+    }
+  },
+  "periods": {
+    "2025": {
+      "n": 365,
+      "original_coverage": 0.7780821917808219,
+      "calibrated_coverage": 0.8301369863013699,
+      "original_width": 38.46615296803653,
+      "calibrated_width": 47.08754566210045,
+      "original_interval_score": 67.04925799086757,
+      "calibrated_interval_score": 67.29119863013699
+    },
+    "January2026": {
+      "n": 31,
+      "original_coverage": 0.6129032258064516,
+      "calibrated_coverage": 0.6774193548387096,
+      "original_width": 67.85577956989248,
+      "calibrated_width": 75.80389784946239,
+      "original_interval_score": 116.9888440860215,
+      "calibrated_interval_score": 110.67755376344087
+    }
+  }
+}

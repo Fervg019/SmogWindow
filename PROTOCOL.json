@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "purpose": "Choose the forecast model and uncertainty method on development data only; evaluate once on later data.",
+  "walk_forward": "models refit on the first day of each month using only rows whose target date is earlier; first forecasts 2023-03-01",
+  "development_window": "target dates 2023-09-01 to 2024-12-31 (488 days) in six chronological blocks; the ONLY data used to choose the model or the uncertainty method",
+  "known_benchmark": "2025-01-01 to 2025-12-31 (365 days). Version 1 of this project had already examined 2025, so it is reported but never used for any choice.",
+  "new_holdout": "2026-01-01 to 2026-02-18 (49 days). Not used by version 1 or by any choice here; evaluated after the selection was written to results/selection_frozen.json.",
+  "candidates": "11 forecasts: persistence, 7-day mean, seasonal climatology, persistence/climatology blend, 5 ridge variants (one on log scale), boosted stumps",
+  "model_rule": "lowest pooled development MAE among the fitted (non-baseline) candidates",
+  "uncertainty_candidates": "all-past absolute errors (v1 style), all-past signed errors, trailing 90 days, trailing 180 days, by forecast level (terciles), relative log-scale errors",
+  "uncertainty_rule": "lowest mean over development blocks (>=25 days) of |coverage - 0.80|; ties broken by narrower interval",
+  "warning_rule": "forecast plus the c/(c+1) quantile of earlier errors under the chosen uncertainty method; same procedure applied to persistence",
+  "primary_decision_setting": "threshold 55 ug/m3, missed high day costs 3x a false alarm (illustrative, fixed in advance; 35/100 and 1x/5x are sensitivity checks)",
+  "statistics": "paired circular moving-block bootstrap, 7-day blocks, 2000 resamples, seed 26080; intervals are descriptive and uncorrected for the many comparisons shown",
+  "test_that_enforces_it": "test_integrity.py re-runs the development stage with all 2025-2026 data deleted and requires an identical selection hash"
+}
